@@ -2,7 +2,7 @@ button{
     padding: 1em;
     border-radius: 2em;
     font-size: 2em;
-    margin: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 button:hover{
@@ -18,11 +18,11 @@ button:hover{
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 .container button {
-    flex-basis: 20%;
+    flex-basis: 23%;
 }
 
 .result {
@@ -30,4 +30,15 @@ button:hover{
     padding: 0px 20px;
     display: flex;
     justify-content: flex-end;
+    margin: 2em 0;
+}
+
+.result input[type="text"] {
+    width: 100%;
+    border: 2px solid gray;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: end;
+    padding: 1em;
+    margin-bottom: 0.5em;
 }
