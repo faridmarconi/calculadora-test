@@ -1,0 +1,33 @@
+button{
+    padding: 1em;
+    border-radius: 2em;
+    font-size: 2em;
+    margin: 0.5rem;
+}
+
+button:hover{
+    background-color: rgba(0,0,0,0.05);
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.container button {
+    flex-basis: 20%;
+}
+
+.result {
+    flex-basis: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
