@@ -1,29 +1,60 @@
-button{
-    padding: 1em;
-    font-size: 2em;
-    margin-bottom: 1rem;
+*{
+    font-family: 'Roboto',sans-serif;
 }
 
-button:hover{
-    background-color: gray;
-    cursor: pointer;
-    color: white;
+body{
+    background: #EEEEEE;
 }
 
 .container {
-    width: 80%;
-    max-width: 600px;
-    min-width: 370px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width:  30%;
+    min-width: 400px;
+    background: white;
+    box-shadow: 0px 10px 24px -4px rgba(0, 0, 0, 0.166);
+    overflow: hidden;
+    border-radius: 20px;
 }
 
-.container button {
-    flex-basis: 23%;
-}
+.teclado{
+    margin-top: 30px;
+    width: 90%;
+    margin: 5%;
+    height: auto;
+    color: rgba(0,0,0,0.9);
+    overflow: hidden;
+  }
+  
+  .teclado div{
+    display: inline-block;
+    width: 25%;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .teclado div button{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    line-height: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+    transition: all 0.3s;
+    border: transparent;
+    font-size: 1.5rem;
+  }
+  
+  .teclado div button:active{
+    background: rgba(0,0,0,0.3);
+  }
 
 .result {
     flex-basis: 100%;
@@ -31,15 +62,38 @@ button:hover{
     height: 10em;
     display: flex;
     justify-content: flex-end;
-    margin: 1em 0;
 }
 
 .result input[type="text"] {
-    width: 100%;
-    border: 2px solid gray;
+    width: 80%;
+    border: none;
     font-size: 2em;
     font-weight: bold;
     text-align: end;
-    padding: 1em;
-    margin-bottom: 0.5em;
+    padding-inline-start: 2em;
+    padding-inline-end: 1em;
+    margin-top: 0.5em;
+}
+
+.result-button{
+    background: #00BCD4;
+    color: white;
+    cursor: pointer;
+    z-index: 20;
+  }
+  
+  .result-.result-button{
+    box-shadow: 0px 6px 40px -4px rgba(0,0,0,0.58);
+  }
+
+.clean{
+    position: absolute;
+    top: 70px;
+    left: 10%;
+}
+
+.clean svg{
+    width: 36px;
+    height: 36px;
+    color: orange;
 }
