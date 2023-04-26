@@ -1,4 +1,4 @@
-# Introdução ao React App - Calculadora funcional
+# Calculadora funcional
 
 Este projeto foi inicializado com [React App](https://github.com/facebook/create-react-app).
 
