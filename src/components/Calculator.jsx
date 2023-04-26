@@ -29,7 +29,7 @@ export default function Calculator() {
 
   return (
     <>
-      <div className="container">
+      <div className="calculator">
         <div className="result">
           <span className="clean" onClick={clear}><BsBackspaceFill /></span>
           <input type="text" value={result} />

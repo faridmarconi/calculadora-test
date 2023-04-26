@@ -1,22 +1,6 @@
-*{
-    font-family: 'Roboto',sans-serif;
-}
-
-body{
-    background: #EEEEEE;
-}
-
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    width:  30%;
-    min-width: 400px;
-    background: white;
-    box-shadow: 0px 10px 24px -4px rgba(0, 0, 0, 0.166);
+.calculator {
+    /* width:  30%; */
     overflow: hidden;
-    border-radius: 20px;
 }
 
 .teclado{
@@ -37,6 +21,7 @@ body{
   }
   
   .teclado div button{
+    cursor: pointer;
     display: block;
     width: 70px;
     height: 70px;
@@ -78,7 +63,6 @@ body{
 .result-button{
     background: #00BCD4;
     color: white;
-    cursor: pointer;
     z-index: 20;
   }
   
@@ -93,6 +77,7 @@ body{
 }
 
 .clean svg{
+    cursor: pointer;
     width: 36px;
     height: 36px;
     color: orange;
