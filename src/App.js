@@ -1,26 +1,15 @@
-// import Calculator from "./components/Calculator";
-
-// function App() {
-//   return (
-//     <div>
-//       <Calculator />
-//     </div>
-//   );
-// }
-
-// export default App;
 import React from "react";
-import Calculator from "./components/Calculator";
-// Import Swiper React components
+import Calculator from "./components/calculator/Calculator";
+import RegraDeTres from "./components/regradetres/Regradetres";
+
+// Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
 
 import "./index.css";
 
-// import required modules
 import { EffectCards } from "swiper";
 
 export default function App() {
@@ -33,7 +22,8 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide><Calculator /></SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide><RegraDeTres/></SwiperSlide>
+        
       </Swiper>
     </>
   );

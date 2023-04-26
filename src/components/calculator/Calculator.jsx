@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BsBackspaceFill } from 'react-icons/bs';
-import "./style.css";
+import "./calculator.css";
 
 export default function Calculator() {
   const [result, setResult] = useState("");
