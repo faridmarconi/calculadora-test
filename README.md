@@ -23,4 +23,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm run build`
 
-executei o npm run build e criei a aplicação para produção na pasta build.\
+executei o npm run build e criei a aplicação para produção na pasta build.
