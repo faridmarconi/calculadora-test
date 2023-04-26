@@ -32,7 +32,7 @@ export default function Calculator() {
       <div className="calculator">
         <div className="result">
           <span className="clean" onClick={clear}><BsBackspaceFill /></span>
-          <input type="text" value={result} />
+          <input type="text" value={result} disabled/>
           
         </div>
       <div className="teclado">
