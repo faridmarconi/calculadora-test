@@ -35,6 +35,13 @@ input[type=number]::-webkit-inner-spin-button {
   margin: 0;
 }
 
+input[type=number] {
+    -moz-appearance: textfield;
+  }  
+
+.actions{
+    width: 100%;
+}
 #frase {
     text-align: left;
     margin: 4vh 0;
